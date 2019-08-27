@@ -1,2 +1,2 @@
- # NextGenealogy
+# NextGenealogy
 Genealogy app for NextCloud
