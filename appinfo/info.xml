@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>nextgenealogy</id>
+    <name>Next Genealogy</name>
+    <summary>Genealogy app for NextCloud</summary>
+    <description><![CDATA[A simple application to start genealogy.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="thomas@fanninger.at" >Thomas Fanninger</author>
+    <namespace>NextGenealogy</namespace>
+    <category>office</category>
+    <category>social</category>
+    <category>tools</category>
+    <bugs>https://github.com/fanningert/NextGenealogy/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Next Genealogy</name>
+            <route>nextgenealogy.page.index</route>
+        </navigation>
+    </navigations>
+</info>

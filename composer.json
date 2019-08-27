@@ -1,0 +1,15 @@
+{
+    "name": "Next Genealogy",
+    "description": "Genealogy app for NextCloud",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Thomas Fanninger"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
